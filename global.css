@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&&family=Ultra&display=swap');
+
+:root {
+    /* Colors */
+    --primary-color: #5c4033;
+    --secondary-color: #cacaca;
+    --background-color: #F8F8FF;
+    --text-color: #333333;
+    --success-color: #597035;
+    --info-color: #87CEEB;
+    --warning-color: #FFF1B6;
+    --danger-color: #FF6347;
+
+    /* Typography */
+    --title-font: 'Ultra', sans-serif;
+    --body-font: 'Montserrat', sans-serif;
+
+    /* Spacing */
+    --spacing-small: 8px;
+    --spacing-medium: 16px;
+    --spacing-large: 24px;
+
+    /* Border Radius */
+    --border-radius: 4px;
+
+    /* Shadows */
+    --shadow-light: 0 1px 3px rgba(0, 0, 0, 0.1);
+    --shadow-medium: 0 4px 6px rgba(0, 0, 0, 0.1);
+    --shadow-dark: 0 10px 20px rgba(0, 0, 0, 0.1);
+
+    /* Transitions */
+    --transition-duration: 0.3s;
+
+    /* Size */
+    --size-small: 12px;
+    --size-medium: 16px;
+    --size-large: 20px;
+    --size-xlarge: 24px;
+
+    /* Border */
+    --border-small: 1px solid var(--secondary-color);
+    --border-medium: 2px solid var(--secondary-color);
+    --border-large: 4px solid var(--secondary-color);
+
+    /* Border Radius */
+    --border-radius-small: 2px;
+    --border-radius-medium: 4px;
+    --border-radius-large: 8px;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: var(--body-font);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+}

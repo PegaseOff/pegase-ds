@@ -1,0 +1,49 @@
+@import url('./global.css');
+
+.sm-font {
+    font-size: var(--size-small);
+    font-family: var(--body-font);
+}
+
+.md-font {
+    font-size: var(--size-medium);
+    font-family: var(--body-font);
+}
+
+.lg-font {
+    font-size: var(--size-large);
+    font-family: var(--body-font);
+}
+
+.title-font {
+    font-size: var(--size-extra-large);
+    font-family: var(--title-font);
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.gap-sm {
+    gap: var(--spacing-small);
+}
+
+.gap-md {
+    gap: var(--spacing-medium);
+}
+
+.gap-lg {
+    gap: var(--spacing-large);
+}
