@@ -16,6 +16,7 @@
     --body-font: 'Lato', sans-serif;
 
     /* Spacing */
+    --spacing-xsmall: 4px;
     --spacing-small: 8px;
     --spacing-medium: 16px;
     --spacing-large: 24px;

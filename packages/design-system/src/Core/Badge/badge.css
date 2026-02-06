@@ -1,12 +1,40 @@
-@import url('./common/global.css');
-@import url('./common/common.css');
+@import url('../../styles/global.css');
+@import url('../../styles/common.css');
 
 .pgs-badge {
     display: inline-block;
-    padding: var(--spacing-small) var(--spacing-medium);
+    padding: var(--spacing-xsmall) var(--spacing-small);
     font-size: var(--size-small);
-    color: var(--background-color);
-    background-color: var(--primary-color);
     border-radius: var(--border-radius);
     transition: background-color var(--transition-fast) ease-in-out, color var(--transition-fast) ease-in-out;
+}
+
+.pgs-badge--primary {
+    background-color: var(--primary-color);
+    color: var(--background-color);
+}
+
+.pgs-badge--secondary {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+}
+
+.pgs-badge--success {
+    background-color: var(--success-color);
+    color: var(--background-color);
+}
+
+.pgs-badge--info {
+    background-color: var(--info-color);
+    color: var(--text-color);
+}
+
+.pgs-badge--warning {
+    background-color: var(--warning-color);
+    color: var(--text-color);
+}
+
+.pgs-badge--danger {
+    background-color: var(--danger-color);
+    color: var(--background-color);
 }
