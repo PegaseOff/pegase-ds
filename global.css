@@ -29,7 +29,9 @@
     --shadow-dark: 0 10px 20px rgba(0, 0, 0, 0.1);
 
     /* Transitions */
-    --transition-duration: 0.3s;
+    --transition-fast: 150ms;
+    --transition-normal: 250ms;
+    --transition-slow: 350ms;
 
     /* Size */
     --size-small: 12px;
