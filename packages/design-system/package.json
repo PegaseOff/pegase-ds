@@ -1,0 +1,29 @@
+{
+  "name": "@PegaseOff/pegase-ds",
+  "version": "1.0.0",
+  "private": false,
+  "description": "",
+  "type": "module",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "peerDependencies": {
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "devDependencies": {
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3",
+    "@types/react": "^19.2.13",
+    "@types/react-dom": "^19.2.3"
+  }
+}

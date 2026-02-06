@@ -1,0 +1,6 @@
+node_modules
+dist
+build
+coverage
+/packages/design-system/node_modules
+/packages/design-system/dist

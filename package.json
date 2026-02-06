@@ -1,0 +1,25 @@
+{
+  "name": "pegase",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "app/*"
+  ],
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/PegaseOff/pegase-ds#readme",
+  "bugs": {
+    "url": "https://github.com/PegaseOff/pegase-ds/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PegaseOff/pegase-ds.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
