@@ -10,7 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@PegaseOff/pegase-ds": "^1.0.0",
+    "@PegaseOff/pegase-ds": "^0.0.2",
     "react": "^19.2.0",
     "react-dom": "^19.2.0"
   },
