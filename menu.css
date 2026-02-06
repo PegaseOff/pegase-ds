@@ -1,0 +1,11 @@
+@import url('./common/global.css');
+@import url('./common/common.css');
+
+.pgs-menu {
+    display: block;
+    background-color: var(--background-color);
+    border: var(--border-medium);
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-light);
+    transition: box-shadow var(--transition-normal) ease-in-out;
+}

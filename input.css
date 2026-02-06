@@ -1,0 +1,15 @@
+@import url('./common/global.css');
+@import url('./common/common.css');
+
+.pgs-input {
+    display: block;
+    width: 100%;
+    padding: var(--spacing-small) var(--spacing-small);
+    font-size: var(--size-medium);
+    color: var(--text-color);
+    background-color: var(--background-color);
+    background-clip: padding-box;
+    border: 1px solid var(--secondary-color);
+    border-radius: var(--border-radius);
+    transition: border-color var(--transition-fast) ease-in-out, box-shadow var(--transition-fast) ease-in-out;
+}

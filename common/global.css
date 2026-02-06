@@ -24,9 +24,9 @@
     --border-radius: 4px;
 
     /* Shadows */
-    --shadow-light: 0 1px 3px rgba(0, 0, 0, 0.1);
-    --shadow-medium: 0 4px 6px rgba(0, 0, 0, 0.1);
-    --shadow-dark: 0 10px 20px rgba(0, 0, 0, 0.1);
+    --shadow-light: 0 1px 3px rgba(187, 187, 187, 0.25);
+    --shadow-normal: 1px 2px 6px rgba(187, 187, 187, 0.25);
+    --shadow-dark: 4px 4px 16px rgba(187, 187, 187, 0.25);
 
     /* Transitions */
     --transition-fast: 150ms;

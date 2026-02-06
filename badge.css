@@ -1,0 +1,12 @@
+@import url('./common/global.css');
+@import url('./common/common.css');
+
+.pgs-badge {
+    display: inline-block;
+    padding: var(--spacing-small) var(--spacing-medium);
+    font-size: var(--size-small);
+    color: var(--background-color);
+    background-color: var(--primary-color);
+    border-radius: var(--border-radius);
+    transition: background-color var(--transition-fast) ease-in-out, color var(--transition-fast) ease-in-out;
+}

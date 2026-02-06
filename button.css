@@ -1,0 +1,14 @@
+@import url('./common/common.css');
+@import url('./common/global.css');
+
+.pgs-button {
+    display: inline-block;
+    padding: var(--spacing-small) var(--spacing-medium);
+    font-size: var(--size-medium);
+    color: var(--background-color);
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: background-color var(--transition-fast) ease-in-out, color var(--transition-fast) ease-in-out;
+}
