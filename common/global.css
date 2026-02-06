@@ -48,6 +48,11 @@
     --border-radius-small: 2px;
     --border-radius-medium: 4px;
     --border-radius-large: 8px;
+
+    /* Padding */
+    --padding-small: 4px;
+    --padding-medium: 8px;
+    --padding-large: 16px;
 }
 
 body {
