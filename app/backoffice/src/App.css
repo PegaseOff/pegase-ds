@@ -1,8 +1,97 @@
 #root {
-  max-width: 1280px;
+  min-height: 100vh;
+  background-color: #f4f4f8;
+}
+
+.ds-page {
+  max-width: 1100px;
   margin: 0 auto;
   padding: 2rem;
-  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+
+.ds-header {
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.ds-header h1 {
+  margin: 0 0 0.25rem;
+  font-size: 2rem;
+  color: #1a1a1a;
+}
+
+.ds-header p {
+  margin: 0;
+  color: #888;
+  font-size: 0.95rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.ds-main {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.ds-section {
+  background: #ffffff;
+  border: 1px solid #e4e4e4;
+  border-radius: 10px;
+  padding: 1.75rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.ds-section-title {
+  margin: 0 0 0.25rem;
+  font-size: 1.25rem;
+  color: #333;
+  border-bottom: 1px solid #ececec;
+  padding-bottom: 0.75rem;
+}
+
+.ds-block {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.ds-block-label {
+  margin: 0;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #aaa;
+  font-weight: 600;
+}
+
+.ds-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+}
+
+.ds-row--align-end {
+  align-items: flex-end;
+}
+
+.ds-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.ds-item-label {
+  font-size: 0.72rem;
+  color: #aaa;
+  text-transform: capitalize;
+  letter-spacing: 0.04em;
 }
 
 .logo {

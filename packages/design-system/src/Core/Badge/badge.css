@@ -9,32 +9,32 @@
     transition: background-color var(--transition-fast) ease-in-out, color var(--transition-fast) ease-in-out;
 }
 
-.pgs-badge--primary {
+.pgs-badge-primary {
     background-color: var(--primary-color);
     color: var(--background-color);
 }
 
-.pgs-badge--secondary {
+.pgs-badge-secondary {
     background-color: var(--secondary-color);
     color: var(--text-color);
 }
 
-.pgs-badge--success {
+.pgs-badge-success {
     background-color: var(--success-color);
     color: var(--background-color);
 }
 
-.pgs-badge--info {
+.pgs-badge-info {
     background-color: var(--info-color);
     color: var(--text-color);
 }
 
-.pgs-badge--warning {
+.pgs-badge-warning {
     background-color: var(--warning-color);
     color: var(--text-color);
 }
 
-.pgs-badge--danger {
+.pgs-badge-danger {
     background-color: var(--danger-color);
     color: var(--background-color);
 }

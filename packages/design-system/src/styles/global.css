@@ -3,13 +3,19 @@
 :root {
     /* Colors */
     --primary-color: #5c4033;
+    --primary-color-hover: #432B1F;
     --secondary-color: #cacaca;
-    --background-color: #F8F8FF;
+    --secondary-color-hover: #A7A7A7;
     --text-color: #333333;
     --success-color: #597035;
+    --success-color-hover: #3F5026;
     --info-color: #87CEEB;
+    --info-color-hover: #71ADC5;
     --warning-color: #FFF1B6;
+    --warning-color-hover: #E5D89A;
     --danger-color: #FF6347;
+    --danger-color-hover: #E5533B;
+    --background-color: #F8F8FF;
 
     /* Typography */
     --title-font: 'Ultra', sans-serif;

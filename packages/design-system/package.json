@@ -1,11 +1,12 @@
 {
-  "name": "@PegaseOff/pegase-ds",
-  "version": "0.0.2",
+  "name": "@pegaseoff/pegase-ds",
+  "version": "0.0.7",
   "private": false,
   "description": "",
   "type": "module",
   "main": "dist/index.cjs",
   "module": "dist/index.js",
+  "styles": "dist/index.css",
   "types": "dist/index.d.ts",
   "files": [
     "dist/*"
@@ -18,7 +19,8 @@
     "react-dom": "^19.2.4"
   },
   "scripts": {
-    "build": "tsup"
+    "build": "tsup",
+    "dev": "tsup --watch"
   },
   "devDependencies": {
     "tsup": "^8.5.1",

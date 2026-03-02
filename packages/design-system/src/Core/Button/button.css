@@ -1,14 +1,74 @@
-@import url('./common/common.css');
-@import url('./common/global.css');
+@import url('../../styles/common.css');
+@import url('../../styles/global.css');
 
 .pgs-button {
     display: inline-block;
-    padding: var(--spacing-small) var(--spacing-medium);
-    font-size: var(--size-medium);
-    color: var(--background-color);
-    background-color: var(--primary-color);
     border: none;
     border-radius: var(--border-radius);
     cursor: pointer;
+    font-family: var(--body-font);
     transition: background-color var(--transition-fast) ease-in-out, color var(--transition-fast) ease-in-out;
+}
+
+.btn-variant-primary {
+    background-color: var(--primary-color);
+    color: var(--background-color);
+}
+.btn-variant-primary:hover {
+    background-color: var(--primary-color-hover);
+}
+
+.btn-variant-secondary {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+}
+.btn-variant-secondary:hover {
+    background-color: var(--secondary-color-hover);
+}
+
+.btn-variant-warning {
+    background-color: var(--warning-color);
+    color: var(--text-color);
+}
+.btn-variant-warning:hover {
+    background-color: var(--warning-color-hover);
+}
+
+.btn-variant-info {
+    background-color: var(--info-color);
+    color: var(--text-color);
+}
+.btn-variant-info:hover {
+    background-color: var(--info-color-hover);
+}
+
+.btn-variant-success {
+    background-color: var(--success-color);
+    color: var(--background-color);
+}
+.btn-variant-success:hover {
+    background-color: var(--success-color-hover);
+}
+
+.btn-variant-danger {
+    background-color: var(--danger-color);
+    color: var(--background-color);
+}
+.btn-variant-danger:hover {
+    background-color: var(--danger-color-hover);
+}
+
+.btn-size-small {
+    padding: var(--padding-small) var(--padding-medium);
+    font-size: var(--size-small);
+}
+
+.btn-size-medium {
+    padding: var(--padding-medium) var(--padding-large);
+    font-size: var(--size-medium);
+}
+
+.btn-size-large {
+    padding: var(--padding-large) calc(var(--padding-large) * 1.5);
+    font-size: var(--size-large);
 }

@@ -20,6 +20,8 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:ds": "npm run build --workspace=packages/design-system",
+    "dev": "npm run dev --workspace=packages/design-system"
   }
 }

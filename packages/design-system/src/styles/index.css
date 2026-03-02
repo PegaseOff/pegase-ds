@@ -1,0 +1,6 @@
+@import url('./common.css');
+@import url('./global.css');
+
+/* Composants */
+@import url('../Core/Badge/badge.css');
+@import url('../Core/Button/button.css');
