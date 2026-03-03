@@ -8,6 +8,18 @@ export { Input } from './Core/Input/input';
 export { Menu, MenuItem, MenuSeparator, MenuLabel } from './Core/Menu/Menu';
 export { Card, CardImage, CardHeader, CardBody, CardFooter } from './Core/Card/Card';
 export { Icon } from './Core/Icon/Icon';
+export {
+    Footer,
+    FooterContent,
+    FooterBrand,
+    FooterNav,
+    FooterNavGroup,
+    FooterNavItem,
+    FooterSocial,
+    FooterSocialItem,
+    FooterDivider,
+    FooterBottom,
+} from './Core/Footer/Footer';
 
 // Types
 export type { Size, Variant } from './utils/types';
@@ -17,3 +29,16 @@ export type { InputProps } from './Core/Input/input';
 export type { MenuProps, MenuItemProps, MenuSeparatorProps, MenuLabelProps } from './Core/Menu/Menu';
 export type { CardProps, CardImageProps, CardHeaderProps, CardBodyProps, CardFooterProps } from './Core/Card/Card';
 export type { IconProps } from './Core/Icon/Icon';
+export type {
+    FooterProps,
+    FooterVariant,
+    FooterContentProps,
+    FooterBrandProps,
+    FooterNavProps,
+    FooterNavGroupProps,
+    FooterNavItemProps,
+    FooterSocialProps,
+    FooterSocialItemProps,
+    FooterDividerProps,
+    FooterBottomProps,
+} from './Core/Footer/Footer';

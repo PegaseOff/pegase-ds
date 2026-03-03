@@ -1,8 +1,8 @@
-import { Badge, Button, Icon, Input, Menu } from '@PegaseOff/pegase-ds';
+import { Badge, Button, Footer, FooterBottom, FooterBrand, FooterContent, FooterDivider, FooterNav, FooterNavItem, FooterSocial, FooterSocialItem, Icon, Input, Menu } from '@PegaseOff/pegase-ds';
 import { FaHorse } from "react-icons/fa";
 import './App.css';
 import { SizeEnum, VariantEnum } from '@pegaseoff/pegase-ds/src/utils/types';
-import { Card, CardBody, CardFooter, CardHeader, CardImage, MenuItem, MenuLabel, MenuSeparator } from '@pegaseoff/pegase-ds';
+import { Card, CardBody, CardFooter, CardHeader, CardImage, FooterNavGroup, MenuItem, MenuLabel, MenuSeparator } from '@pegaseoff/pegase-ds';
 import { useState } from 'react';
 
 const variants = Object.values(VariantEnum);
@@ -11,8 +11,9 @@ const sizes = Object.values(SizeEnum);
 function App() {
   const [active, setActive] = useState('home');
   return (
-    <div className="ds-page">
-      <header className="ds-header">
+    <div>
+      <div className="ds-page">
+        <header className="ds-header">
         <h1>Pegase — Design System</h1>
         <p>Catalogue des composants</p>
       </header>
@@ -166,6 +167,33 @@ function App() {
           </div>
         </section>
       </main>
+      </div>
+
+      <Footer variant="default">
+        <FooterContent>
+          <FooterBrand name="Pégase" description="Design system made with ♥" />
+          <FooterNav>
+            <FooterNavGroup title="Produit">
+              <FooterNavItem href="/features">Fonctionnalités</FooterNavItem>
+              <FooterNavItem href="/pricing">Tarifs</FooterNavItem>
+              <FooterNavItem disabled>Roadmap</FooterNavItem>
+            </FooterNavGroup>
+            <FooterNavGroup title="Ressources">
+              <FooterNavItem href="/docs">Documentation</FooterNavItem>
+              <FooterNavItem href="/changelog">Changelog</FooterNavItem>
+            </FooterNavGroup>
+          </FooterNav>
+          <FooterSocial>
+            <FooterSocialItem href="https://github.com" label="GitHub">
+              <Icon variant='secondary' icon={FaHorse} />
+            </FooterSocialItem>
+          </FooterSocial>
+        </FooterContent>
+        <FooterDivider />
+        <FooterBottom>
+          <span>© 2026 Pégase. Tous droits réservés.</span>
+        </FooterBottom>
+      </Footer>
     </div>
   );
 }
