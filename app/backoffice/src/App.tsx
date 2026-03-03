@@ -80,12 +80,10 @@ function App() {
           <div className="ds-block">
             <h3 className="ds-block-label">Tailles</h3>
             <div className="ds-row">
-              {sizes.map((s) => (
-                <div key={s} className="ds-item">
-                  <Input size={s} placeholder={`Input ${s}`} />²
-                  <span className="ds-item-label">{s}</span>
-                </div>
-              ))}
+              <div className="ds-item">
+                <Input placeholder='Input small' />
+                <span className="ds-item-label">Medium</span>
+              </div>
             </div>
           </div>
         </section>
