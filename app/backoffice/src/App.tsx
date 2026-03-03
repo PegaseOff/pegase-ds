@@ -1,8 +1,9 @@
-import { Badge, Button } from '@PegaseOff/pegase-ds';
+import { Badge, Button, Input } from '@PegaseOff/pegase-ds';
 import './App.css';
+import { SizeEnum, VariantEnum } from '@pegaseoff/pegase-ds/src/utils/types';
 
-const variants = ['primary', 'secondary', 'success', 'info', 'warning', 'danger'] as const;
-const sizes = ['small', 'medium', 'large'] as const;
+const variants = Object.values(VariantEnum);
+const sizes = Object.values(SizeEnum);
 
 function App() {
   return (
@@ -66,6 +67,23 @@ function App() {
                 <div key={v} className="ds-item">
                   <Button variant={v} disabled>{v}</Button>
                   <span className="ds-item-label">disabled</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Inputs */}
+        <section className="ds-section">
+          <h2 className="ds-section-title">Input</h2>
+
+          <div className="ds-block">
+            <h3 className="ds-block-label">Tailles</h3>
+            <div className="ds-row">
+              {sizes.map((s) => (
+                <div key={s} className="ds-item">
+                  <Input size={s} placeholder={`Input ${s}`} />²
+                  <span className="ds-item-label">{s}</span>
                 </div>
               ))}
             </div>

@@ -1,10 +1,10 @@
 #root {
+  width: 100%;
   min-height: 100vh;
   background-color: #f4f4f8;
 }
 
 .ds-page {
-  max-width: 1100px;
   margin: 0 auto;
   padding: 2rem;
   font-family: 'Lato', sans-serif;

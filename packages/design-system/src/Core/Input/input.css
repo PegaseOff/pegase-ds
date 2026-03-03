@@ -1,5 +1,5 @@
-@import url('./common/global.css');
-@import url('./common/common.css');
+@import url('../../styles/common.css');
+@import url('../../styles/global.css');
 
 .pgs-input {
     display: block;

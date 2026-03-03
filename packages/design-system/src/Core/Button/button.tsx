@@ -6,10 +6,10 @@ export type ButtonProps = React.ButtonHTMLAttributes<HTMLButtonElement> & {
 	size?: Size;
 };
 
-export const Button: React.FC<ButtonProps> = ({ children, className = '', variant = 'primary', size = 'medium', ...rest }) => {
+export const Button: React.FC<ButtonProps> = ({ children, className = '', variant = 'primary', size = 'medium', disabled = false, ...rest }) => {
 	const cls = `pgs-button btn-variant-${variant} btn-size-${size} ${className}`.trim();
 	return (
-		<button className={cls} {...rest}>
+		<button className={cls} disabled={disabled} {...rest}>
 			{children}
 		</button>
 	);
