@@ -12,7 +12,7 @@
 
 .pgs-badge-primary {
     background-color: var(--primary-color);
-    color: var(--background-color);
+    color: var(--light-text-color);
 }
 .pgs-badge-primary:hover {
     outline: var(--border-medium);
@@ -28,7 +28,7 @@
 
 .pgs-badge-success {
     background-color: var(--success-color);
-    color: var(--background-color);
+    color: var(--light-text-color);
 }
 .pgs-badge-success:hover {
     outline: var(--border-medium);
@@ -52,7 +52,7 @@
 
 .pgs-badge-danger {
     background-color: var(--danger-color);
-    color: var(--background-color);
+    color: var(--light-text-color);
 }
 .pgs-badge-danger:hover {
     outline: var(--border-medium);

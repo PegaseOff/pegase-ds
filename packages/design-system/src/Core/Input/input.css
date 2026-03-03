@@ -16,7 +16,7 @@
     padding: var(--spacing-small) var(--spacing-small);
     font-size: var(--size-medium);
     color: var(--text-color);
-    background-color: var(--background-color);
+    background-color: #FFFFFF;
     background-clip: padding-box;
     border: var(--border-small);
     border-radius: var(--border-radius);

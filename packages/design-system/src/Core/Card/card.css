@@ -4,7 +4,7 @@
 .pgs-card {
     display: flex;
     flex-direction: column;
-    background-color: var(--background-color);
+    background-color: #FFFFFF;
     border: var(--border-small);
     border-radius: var(--border-radius-large);
     overflow: hidden;

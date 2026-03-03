@@ -8,6 +8,7 @@
     --secondary-color: #cacaca;
     --secondary-color-hover: #A7A7A7;
     --text-color: #333333;
+    --light-text-color: #ffffff;
     --subtitle-color: #555555;
     --success-color: #597035;
     --success-color-hover: #3F5026;
@@ -17,7 +18,7 @@
     --warning-color-hover: #E5D89A;
     --danger-color: #FF6347;
     --danger-color-hover: #E5533B;
-    --background-color: #F8F8FF;
+    --background-color: #fff1b63d;
 
     /* Typography */
     --title-font: 'Ultra', sans-serif;

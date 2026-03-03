@@ -64,7 +64,7 @@
 .menu-item-variant-primary:hover:not(:disabled),
 .menu-item-variant-primary.menu-item-active {
     background-color: var(--primary-color);
-    color: var(--background-color);
+    color: var(--light-text-color);
 }
 
 .menu-item-variant-secondary {
@@ -82,7 +82,7 @@
 .menu-item-variant-success:hover:not(:disabled),
 .menu-item-variant-success.menu-item-active {
     background-color: var(--success-color);
-    color: var(--background-color);
+    color: var(--light-text-color);
 }
 
 .menu-item-variant-danger {
@@ -91,7 +91,7 @@
 .menu-item-variant-danger:hover:not(:disabled),
 .menu-item-variant-danger.menu-item-active {
     background-color: var(--danger-color);
-    color: var(--background-color);
+    color: var(--light-text-color);
 }
 
 .menu-item-variant-warning {

@@ -10,12 +10,12 @@
 
 .footer-variant-default {
     background-color: var(--primary-color);
-    color: var(--background-color);
+    color: var(--light-text-color);
 }
 
 .footer-variant-dark {
     background-color: var(--primary-color-hover);
-    color: var(--background-color);
+    color: var(--light-text-color);
 }
 
 .footer-variant-light {
