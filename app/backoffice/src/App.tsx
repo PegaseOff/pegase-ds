@@ -104,7 +104,7 @@ function App() {
                 <Menu activeKey={active} onChange={setActive}>
                   <MenuItem value="home">Accueil</MenuItem>
                   <MenuItem value="products">Produits</MenuItem>
-                  <MenuItem value="contact">Contact</MenuItem>
+                  <MenuItem value="contact" disabled>Contact</MenuItem>
                   <MenuSeparator />
                   <MenuLabel>Autres</MenuLabel>
                   <MenuItem value="settings">Paramètres</MenuItem>
