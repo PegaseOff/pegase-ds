@@ -1,6 +1,16 @@
 @import url('../../styles/common.css');
 @import url('../../styles/global.css');
 
+.pgs-input-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-xsmall);
+    
+    label {
+        color: var(--subtitle-color);
+    }
+}
+
 .pgs-input {
     display: block;
     padding: var(--spacing-small) var(--spacing-small);

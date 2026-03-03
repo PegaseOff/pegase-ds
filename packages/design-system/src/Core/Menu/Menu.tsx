@@ -24,7 +24,7 @@ export type MenuProps = Omit<React.HTMLAttributes<HTMLElement>, 'onChange'> & {
 export const Menu: React.FC<MenuProps> = ({
     children,
     className = '',
-    size = 'medium',
+    size = 'large',
     variant = 'primary',
     activeKey: activeKeyProp,
     defaultActiveKey,

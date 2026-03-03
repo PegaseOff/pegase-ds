@@ -1,0 +1,14 @@
+@import url('../../styles/common.css');
+@import url('../../styles/global.css');
+
+.pgs-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    flex-shrink: 0;
+}
+
+.pgs-icon svg {
+    display: block;
+}

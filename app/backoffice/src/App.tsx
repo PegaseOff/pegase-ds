@@ -1,4 +1,5 @@
-import { Badge, Button, Input, Menu } from '@PegaseOff/pegase-ds';
+import { Badge, Button, Icon, Input, Menu } from '@PegaseOff/pegase-ds';
+import { FaHorse } from "react-icons/fa";
 import './App.css';
 import { SizeEnum, VariantEnum } from '@pegaseoff/pegase-ds/src/utils/types';
 import { Card, CardBody, CardFooter, CardHeader, CardImage, MenuItem, MenuLabel, MenuSeparator } from '@pegaseoff/pegase-ds';
@@ -83,11 +84,11 @@ function App() {
           <div className="ds-block">
             <div className="ds-row">
               <div className="ds-item">
-                <Input placeholder='Input medium' />
+                <Input placeholder='Input medium' label='Label' />
                 <span className="ds-item-label">Actif</span>
               </div>
               <div className="ds-item">
-                <Input placeholder='Input disabled' disabled />
+                <Input placeholder='Input disabled' disabled label='Label désactivé' />
                 <span className="ds-item-label">Désactivé</span>
               </div>
             </div>
@@ -135,6 +136,30 @@ function App() {
                       <Button variant="success" size="medium">Action</Button>
                     </CardFooter>
                   </Card>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Icons */}
+        <section className="ds-section">
+          <h2 className="ds-section-title">Icons</h2>
+
+          <div className="ds-block">
+            <div className="ds-row">
+              {sizes.map((s) => (
+                <div key={s} className="ds-item">
+                  <Icon size={s} icon={FaHorse} />
+                  <span className="ds-item-label">{s}</span>
+                </div>
+              ))}
+            </div>
+            <div className="ds-row">
+              {variants.map((v) => (
+                <div key={v} className="ds-item">
+                  <Icon variant={v} icon={FaHorse} />
+                  <span className="ds-item-label">{v}</span>
                 </div>
               ))}
             </div>
