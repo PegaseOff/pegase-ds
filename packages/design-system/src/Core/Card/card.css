@@ -7,13 +7,12 @@
     background-color: var(--background-color);
     border: var(--border-small);
     border-radius: var(--border-radius-large);
-    box-shadow: var(--shadow-normal);
     overflow: hidden;
     transition: box-shadow var(--transition-normal) ease-in-out;
 }
 
 .pgs-card:hover {
-    box-shadow: var(--shadow-dark);
+    box-shadow: 0px 10px 24px var(--primary-color-transparent50);
 }
 
 .card-size-small {

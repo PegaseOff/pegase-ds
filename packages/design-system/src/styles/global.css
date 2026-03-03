@@ -3,6 +3,7 @@
 :root {
     /* Colors */
     --primary-color: #5c4033;
+    --primary-color-transparent50: rgba(92, 64, 51, 0.5);
     --primary-color-hover: #432B1F;
     --secondary-color: #cacaca;
     --secondary-color-hover: #A7A7A7;
@@ -34,7 +35,7 @@
     /* Shadows */
     --shadow-light: 1 2px 6px rgba(187, 187, 187, 0.25);
     --shadow-normal: 4px 4px 16px rgba(187, 187, 187, 0.25);
-    --shadow-dark: 8px 8px 24px rgba(187, 187, 187, 0.25);
+    --shadow-dark: 8px 12px 24px rgba(187, 187, 187, 0.25);
 
     /* Transitions */
     --transition-fast: 150ms;
