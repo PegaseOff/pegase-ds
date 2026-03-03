@@ -31,9 +31,9 @@
     --border-radius: 4px;
 
     /* Shadows */
-    --shadow-light: 0 1px 3px rgba(187, 187, 187, 0.25);
-    --shadow-normal: 1px 2px 6px rgba(187, 187, 187, 0.25);
-    --shadow-dark: 4px 4px 16px rgba(187, 187, 187, 0.25);
+    --shadow-light: 1 2px 6px rgba(187, 187, 187, 0.25);
+    --shadow-normal: 4px 4px 16px rgba(187, 187, 187, 0.25);
+    --shadow-dark: 8px 8px 24px rgba(187, 187, 187, 0.25);
 
     /* Transitions */
     --transition-fast: 150ms;
@@ -57,9 +57,9 @@
     --border-radius-large: 8px;
 
     /* Padding */
-    --padding-small: 4px;
+    --padding-small: 6px;
     --padding-medium: 8px;
-    --padding-large: 16px;
+    --padding-large: 12px;
 }
 
 body {

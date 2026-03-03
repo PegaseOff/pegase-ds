@@ -7,34 +7,53 @@
     font-size: var(--size-small);
     border-radius: var(--border-radius);
     transition: background-color var(--transition-fast) ease-in-out, color var(--transition-fast) ease-in-out;
+    cursor: pointer;
 }
 
 .pgs-badge-primary {
     background-color: var(--primary-color);
     color: var(--background-color);
 }
+.pgs-badge-primary:hover {
+    outline: var(--border-medium);
+}
 
 .pgs-badge-secondary {
     background-color: var(--secondary-color);
     color: var(--text-color);
+}
+.pgs-badge-secondary:hover {
+    outline: var(--border-medium);
 }
 
 .pgs-badge-success {
     background-color: var(--success-color);
     color: var(--background-color);
 }
+.pgs-badge-success:hover {
+    outline: var(--border-medium);
+}
 
 .pgs-badge-info {
     background-color: var(--info-color);
     color: var(--text-color);
+}
+.pgs-badge-info:hover {
+    outline: var(--border-medium);
 }
 
 .pgs-badge-warning {
     background-color: var(--warning-color);
     color: var(--text-color);
 }
+.pgs-badge-warning:hover {
+    outline: var(--border-medium);
+}
 
 .pgs-badge-danger {
     background-color: var(--danger-color);
     color: var(--background-color);
+}
+.pgs-badge-danger:hover {
+    outline: var(--border-medium);
 }

@@ -14,48 +14,72 @@
     background-color: var(--primary-color);
     color: var(--background-color);
 }
-.btn-variant-primary:hover {
+.btn-variant-primary:hover:not(:disabled) {
     background-color: var(--primary-color-hover);
+}
+.btn-variant-primary:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
 }
 
 .btn-variant-secondary {
     background-color: var(--secondary-color);
     color: var(--text-color);
 }
-.btn-variant-secondary:hover {
+.btn-variant-secondary:hover:not(:disabled) {
     background-color: var(--secondary-color-hover);
+}
+.btn-variant-secondary:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
 }
 
 .btn-variant-warning {
     background-color: var(--warning-color);
     color: var(--text-color);
 }
-.btn-variant-warning:hover {
+.btn-variant-warning:hover:not(:disabled) {
     background-color: var(--warning-color-hover);
+}
+.btn-variant-warning:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
 }
 
 .btn-variant-info {
     background-color: var(--info-color);
     color: var(--text-color);
 }
-.btn-variant-info:hover {
+.btn-variant-info:hover:not(:disabled) {
     background-color: var(--info-color-hover);
+}
+.btn-variant-info:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
 }
 
 .btn-variant-success {
     background-color: var(--success-color);
     color: var(--background-color);
 }
-.btn-variant-success:hover {
+.btn-variant-success:hover:not(:disabled) {
     background-color: var(--success-color-hover);
+}
+.btn-variant-success:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
 }
 
 .btn-variant-danger {
     background-color: var(--danger-color);
     color: var(--background-color);
 }
-.btn-variant-danger:hover {
+.btn-variant-danger:hover:not(:disabled) {
     background-color: var(--danger-color-hover);
+}
+.btn-variant-danger:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
 }
 
 .btn-size-small {

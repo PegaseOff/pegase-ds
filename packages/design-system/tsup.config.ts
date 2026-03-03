@@ -11,7 +11,7 @@ export default defineConfig({
     target: 'esnext',
     outDir: 'dist',
     esbuildOptions(options) {
-        options.platform = 'node';
+        options.platform = 'browser';
         return options;
     },
 });

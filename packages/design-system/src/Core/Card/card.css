@@ -1,0 +1,75 @@
+@import url('../../styles/common.css');
+@import url('../../styles/global.css');
+
+.pgs-card {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--background-color);
+    border: var(--border-small);
+    border-radius: var(--border-radius-large);
+    box-shadow: var(--shadow-normal);
+    overflow: hidden;
+    transition: box-shadow var(--transition-normal) ease-in-out;
+}
+
+.pgs-card:hover {
+    box-shadow: var(--shadow-dark);
+}
+
+.card-size-small {
+    width: 200px;
+}
+
+.card-size-medium {
+    width: 300px;
+}
+
+.card-size-large {
+    width: 400px;
+}
+
+.pgs-card-image {
+    width: 100%;
+    object-fit: cover;
+    display: block;
+    flex-shrink: 0;
+}
+
+.card-size-small .pgs-card-image {
+    height: 120px;
+}
+
+.card-size-medium .pgs-card-image {
+    height: 180px;
+}
+
+.card-size-large .pgs-card-image {
+    height: 240px;
+}
+
+.pgs-card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--spacing-medium) var(--spacing-medium) 0;
+    font-family: var(--title-font);
+    font-size: var(--size-large);
+    color: var(--text-color);
+    gap: var(--spacing-small);
+}
+
+.pgs-card-body {
+    flex: 1;
+    padding: var(--spacing-small) var(--spacing-medium);
+    font-family: var(--body-font);
+    font-size: var(--size-medium);
+    color: var(--text-color);
+}
+
+.pgs-card-footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: var(--spacing-small);
+    padding: 0 var(--spacing-medium) var(--spacing-medium);
+}

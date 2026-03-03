@@ -1,11 +1,133 @@
-@import url('./common/global.css');
-@import url('./common/common.css');
+@import url('../../styles/common.css');
+@import url('../../styles/global.css');
 
 .pgs-menu {
-    display: block;
-    background-color: var(--background-color);
-    border: var(--border-medium);
-    border-radius: var(--border-radius);
-    box-shadow: var(--shadow-light);
-    transition: box-shadow var(--transition-normal) ease-in-out;
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+}
+
+.pgs-menu ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: var(--spacing-xsmall);
+
+    li[role="none"] {
+        background:
+        linear-gradient(var(--secondary-color), var(--secondary-color))
+        bottom / 100% 2px
+        no-repeat;
+    }
+}
+
+.menu-size-small .pgs-menu-item {
+    padding: var(--padding-small) var(--padding-medium);
+    font-size: var(--size-small);
+}
+
+.menu-size-medium .pgs-menu-item {
+    padding: var(--padding-medium) var(--padding-large);
+    font-size: var(--size-medium);
+}
+
+.menu-size-large .pgs-menu-item {
+    padding: var(--padding-large) calc(var(--padding-large) * 1.5);
+    font-size: var(--size-large);
+}
+
+.pgs-menu-item {
+    display: inline-flex;
+    align-items: center;
+    border: none;
+    background: transparent;
+    border-radius: var(--border-radius-medium);
+    cursor: pointer;
+    font-family: var(--body-font);
+    white-space: nowrap;
+    transition:
+        background-color var(--transition-fast) ease-in-out,
+        color var(--transition-fast) ease-in-out;
+}
+
+.pgs-menu-item:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.menu-item-variant-primary {
+    color: var(--primary-color);
+}
+.menu-item-variant-primary:hover:not(:disabled),
+.menu-item-variant-primary.menu-item-active {
+    background-color: var(--primary-color);
+    color: var(--background-color);
+}
+
+.menu-item-variant-secondary {
+    color: var(--text-color);
+}
+.menu-item-variant-secondary:hover:not(:disabled),
+.menu-item-variant-secondary.menu-item-active {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+}
+
+.menu-item-variant-success {
+    color: var(--success-color);
+}
+.menu-item-variant-success:hover:not(:disabled),
+.menu-item-variant-success.menu-item-active {
+    background-color: var(--success-color);
+    color: var(--background-color);
+}
+
+.menu-item-variant-danger {
+    color: var(--danger-color);
+}
+.menu-item-variant-danger:hover:not(:disabled),
+.menu-item-variant-danger.menu-item-active {
+    background-color: var(--danger-color);
+    color: var(--background-color);
+}
+
+.menu-item-variant-warning {
+    color: var(--text-color);
+}
+.menu-item-variant-warning:hover:not(:disabled),
+.menu-item-variant-warning.menu-item-active {
+    background-color: var(--warning-color);
+    color: var(--text-color);
+}
+
+.menu-item-variant-info {
+    color: var(--text-color);
+}
+.menu-item-variant-info:hover:not(:disabled),
+.menu-item-variant-info.menu-item-active {
+    background-color: var(--info-color);
+    color: var(--text-color);
+}
+
+.pgs-menu-separator {
+    width: 1px;
+    align-self: stretch;
+    background-color: var(--secondary-color);
+    margin: 0 var(--spacing-xsmall);
+    border: none;
+    padding: 0;
+}
+
+.pgs-menu-label {
+    padding: 0 var(--padding-medium);
+    font-size: var(--size-small);
+    font-family: var(--body-font);
+    color: var(--secondary-color-hover);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    cursor: default;
+    list-style: none;
 }
